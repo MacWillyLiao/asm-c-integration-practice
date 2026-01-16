@@ -18,12 +18,10 @@
 /*************************************************************
  *  <<Julia set相關資料>>
  *  https://en.wikipedia.org/wiki/Julia_set
- *
+ 
  *  cX 為 Julia set數學式中複數 "c" 的實部
  *  cY 為 Julia set數學式中複數 "c" 的虛部
  *  調整cX(值域:-1.0~1.0)與cY(值域:0.0~1.0)可得到不同的圖形
- *
- 
 *************************************************************/
 
 
@@ -89,9 +87,6 @@ int main()
 			// 移動檔案操作位置至最前端，以便下一次的畫面重新寫入
 			lseek( fd, 0, SEEK_SET );
 		}
-
-
-		//Dummy printout. Please refer to the specification of Project 1. 
 		
 		printf( ".*.*.*.<:: Happy New Year ::>.*.*.*.\n" );
 		printf( "by Team 01\n" );
@@ -108,3 +103,4 @@ int main()
 
 	return 0;
 }
+

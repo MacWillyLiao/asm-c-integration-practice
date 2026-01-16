@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-//Dummy Function. Please refer to the specification of Project 1.
 void name( ) 
 {
 	printf( "*****Print Name*****\n" );
@@ -10,3 +9,4 @@ void name( )
 	printf( "Tom Smith\n" );
 	printf( "*****End Print*****\n" );	
 }
+

@@ -9,9 +9,9 @@ a practice repository combining C and ARM assembly
 ### 主題
 - 將 [`data/`](data/) 資料夾中的 C Language 手動改寫成 Assembly Language
 
-- [`data/`](data/) 為範例資料夾，裡面有 [drawJuliaSet.c](data/drawJuliaSet.c)、[id.c](data/id.c)、[main.c](data/main.c)、[name.c](data/name.c)，會將 drawJuliaSet.c、id.c、name.c 做轉換，修改相關字串並將 C 語言人工轉成組合語言，放在 [`src/`](src/) 中。
+- [`data/`](data/) 為範例資料夾，裡面有 [drawJuliaSet.c](data/drawJuliaSet.c)、[id.c](data/id.c)、[main.c](data/main.c)、[name.c](data/name.c) 這四個 C 檔案，題目是將 drawJuliaSet.c、id.c、name.c 做轉換、修改，將 C 語言人工轉成組合語言，結果放在 [`src/`](src/) 中。
 
-- [`src/`](src/) 資料夾中有 [drawJuliaSet.s](src/drawJuliaSet.s)、[id.s](src/id.s)、[main.c](src/main.c)、[name.s](src/name.s)，除了 main.c 只做了 format code，其他皆轉成組合語言，執行時，main.c 會呼叫 drawJuliaSet.s、id.s、name.s 這三個組語寫成的函式。
+- [`src/`](src/) 資料夾中有 [drawJuliaSet.s](src/drawJuliaSet.s)、[id.s](src/id.s)、[main.c](src/main.c)、[name.s](src/name.s)，除了 main.c 只做了 format code，其他皆已轉成組合語言，執行時，main.c 會呼叫 drawJuliaSet.s、id.s、name.s 這三個函式。
 
 ### 函式說明
 - `name.s`：輸出組別與每個組員的英文姓名。  

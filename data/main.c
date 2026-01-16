@@ -41,16 +41,11 @@ int main()
 
 
 	printf( "Function1: Name\n" );
-
-	//Dummy Function. Please refer to the specification of Project 1.
 	name();
 	
 	printf( "Function2: ID\n" );
-	
-	//Dummy Function. Please refer to the specification of Project 1.
 	id();
 
-	//Dummy printout. Please refer to the specification of Project 1. 
 	printf( "Main Function:\n" );
 	printf( "*****Print All*****\n" );
 	printf( "Team 01\n" );
@@ -103,4 +98,5 @@ int main()
 
 	return 0;
 }
+
 

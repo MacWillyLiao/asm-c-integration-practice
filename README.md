@@ -20,7 +20,6 @@ a practice repository combining C and ARM assembly
 - `main.c`：呼叫上述三個 ARM 組合語言函式，展示 C 與組合語言的整合。
 
 ### 範例輸出
-相關程式執行輸出請見 [`images/`](images/)
+相關程式執行輸出請見 [`images/`](images/)。
 
-#### Note: 
-This project was originally a group assignment. All implementation (including code and documentation) in this repository was completed individually.
+##### Note：本專案源自小組作業，但本 repo 中的所有實作內容（包含程式碼與文件）均由我獨立完成。

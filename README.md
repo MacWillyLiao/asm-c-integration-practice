@@ -6,7 +6,7 @@ a practice repository combining C and ARM assembly
 - C 語言：C17
 - 組合語言：ARMv5
 
-### 主題
+### 內容
 - 將 [`data/`](data/) 資料夾中的 **C Language 手動改寫成 Assembly Language**。
 
 - [`data/`](data/) 為範例資料夾，裡面有 [drawJuliaSet.c](data/drawJuliaSet.c)、[id.c](data/id.c)、[main.c](data/main.c)、[name.c](data/name.c) 這四個 C 檔案，題目是將 drawJuliaSet.c、id.c、name.c 做轉換、修改，**將 C 語言人工轉成組合語言**，結果放在 [`src/`](src/) 中。

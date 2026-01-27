@@ -22,4 +22,4 @@ a practice repository combining C and ARM assembly
 ### 範例輸出
 相關程式執行輸出請見 [`images/`](images/)。
 
-##### **Note：本專案源自小組作業，但本 repo 中的所有實作內容（包含程式碼與文件）均由我獨立完成。**
+##### Note：本專案源自小組作業，但本 repo 中的所有實作內容（包含程式碼與文件）均由我獨立完成。
